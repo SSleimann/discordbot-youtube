@@ -14,25 +14,18 @@ This is a simple Discord bot that can be run from Docker.
 
 ## Commands
 
-```console
-!{PREFIX}yvideo <url>
-```
+**!{PREFIX}yvideo _url_:** Show the information of the video
 
-```console
-!{PREFIX}svideo <search text>
-```
-
-**yvideo:** Show the information of the video
-**svideo:** Search and display videos
+**!{PREFIX}svideo _search text_:** Search and display videos
 
 ## Enviroment Variables
 
 ENV | VALUE
 --- | ---
-*DISCORD_TOKEN* | Here goes the token of your discord bot
-*PREFIX*  | Here goes the prefix that will be used when executing commands
-*OWNER_ID* | Here goes your discord user ID
-*DEVELOPER_KEY*  | Here goes your Youtube Api Token
+_DISCORD_TOKEN_ | Here goes the token of your discord bot
+_PREFIX_  | Here goes the prefix that will be used when executing commands
+_OWNER_ID_ | Here goes your discord user ID
+_DEVELOPER_KEY_  | Here goes your Youtube Api Token
 
 ## Installation
 
