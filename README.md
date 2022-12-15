@@ -41,7 +41,7 @@ docker build -t YDBOT .
 Now you can run your docker image.
 
 ```console
-$ docker run -it -e DISCORD_TOKEN=YOUR_BOT_TOKEN \ 
+docker run -it -e DISCORD_TOKEN=YOUR_BOT_TOKEN \ 
 -e PREFIX=YOUR_PREFIX \ 
 -e OWNER_ID=YOUR_DISCORD_ID_ACCOUNT \
 -e DEVELOPER_KEY=YOUR_YOUTUBE_API_KEY \
